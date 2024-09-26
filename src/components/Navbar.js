@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Typography, useTheme } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import axios from "axios";
+import axios from "../config/api/api.js";
 import toast from "react-hot-toast";
 const Navbar = () => {
   const theme = useTheme();
